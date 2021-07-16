@@ -25,7 +25,7 @@ debateImg.addEventListener("click", function () {
     Swal.fire({
         showCloseButton: true,
         showConfirmButton: false,
-        imageUrl: 'debateLogo.png',
+        imageUrl: 'Images/debateLogo.png',
         imageWidth: 330,
         imageHeight: 250,
         title: '<b>Debate  2017-2021<b>',
