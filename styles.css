@@ -140,6 +140,7 @@ html{
 
 .paintContainer{
     position: relative;
+    margin-left: 35px;
 }
 
 .pokemonContainer{
