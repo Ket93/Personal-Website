@@ -49,7 +49,7 @@ chessImg.addEventListener("click", function () {
         imageWidth: 350,
         imageHeight: 230,
         title: '<b>Chess  2014-2021<b>',
-        text: "I have been playing chess competitively for over 7 years. Since I was in Grade 5 I have competed in school, regional, provincial, and national tournaments, scoring within the top 20 for my age group in 2016. I joined the Massey Chess Club in Grade 9 and competed in the Ontario High School Chess Challenge two times winning 1st as a school both years as well as individual section and age group medals. I met lots of my clsoest friends and mentors through the chess community and created everlasting memories as well. ",
+        text: "I have been playing chess competitively for over 7 years. Since I was in Grade 5 I have competed in school, regional, provincial, and national tournaments, scoring within the top 20 for my age group in 2016. I joined the Massey Chess Club in Grade 9 and competed in the Ontario High School Chess Challenge two times winning 1st as a school both years as well as individual section and age group medals. I met lots of my closest friends and mentors through the chess community and created everlasting memories as well. ",
         width: 600,
         showClass: {
             popup: 'animate__animated animate__fadeInDown'
