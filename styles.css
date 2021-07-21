@@ -133,7 +133,7 @@ html{
     padding-bottom: 60px;
 }
 
-.jpropertyContainer{
+.jpropertyContainer{    
     position: relative;
     margin-left: 30px;
 }
@@ -224,6 +224,15 @@ html{
     text-decoration: none;
     font-size: 15px;
     padding-left: 0;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
 }
 
 
