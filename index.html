@@ -11,21 +11,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    </link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
     <title>Kevin Cui</title>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <body>
 
-    <nav class="navbar navbar-dark navbar-expand fixed-top" id="mainNavbar">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNavbar">
         <div class="container-fluid">
+
             <a href="#" class="navbar-brand"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse"></div>
-            <div class="collapse navbar-collapse" id="navLinks">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#" class="nav-link">HOME</a>
                     </li>
@@ -56,17 +64,17 @@
                 <div style="height: 200px"></div>
                 <div id="social" class="container-fluid text-center">
                     <a class="logo" href="https://github.com/Ket93" target="_blank">
-                        <i class="bi bi-github" aria-hidden="true"></i>
+                        <i class="fab fa-github fa-5x" style="color:black" aria-hidden="true"></i>
                     </a>
                     <a class="logo" href="https://www.facebook.com/kevin.cui.10/" target="_blank">
-                        <i class="bi bi-facebook" aria-hidden="true"></i>
+                        <i class="fab fa-facebook fa-5x" style="color:black" aria-hidden="true"></i>
                     </a>
                     <a class="logo" href="https://www.instagram.com/kevincui113/" target="_blank">
-                        <i class="bi bi-instagram" aria-hidden="true"></i>
+                        <i class="fab fa-instagram fa-5x" style="color:black" aria-hidden="true"></i>
                     </a>
 
                     <a class="logo" href="mailto:kevincui113@gmail.com" target="_blank">
-                        <i class="mail bi-envelope-fill" aria-hidden="true"></i>
+                        <i class="fas fa-envelope fa-5x" style="color:black" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -104,11 +112,11 @@
         <div class="row align-items-center">
             <h2 class="experience">Experience</h2>
             <h4 class="experienceMore">Click on each one to learn more!</h4>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h3 style="text-align: center; padding-bottom: 10px;">DECA</h3>
                 <img src="Images/deca.jpg" class="deca img-fluid" width="700" height="500">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h3 style="text-align: center; padding-bottom: 10px;">DEBATE</h3>
                 <img src="Images/debate.png" class="debate img-fluid" width="710" height="500">
             </div>
@@ -118,7 +126,7 @@
 
     <div class="experienceContainer container-fluid">
         <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h3 style="text-align: center; padding-bottom: 10px;">CHESS</h3>
                 <img src="Images/chess.jpg" class="chess img-fluid" width="700" height="500">
             </div>
@@ -133,18 +141,24 @@
         <div class="row align-items-center">
             <h2 class="projects">Projects</h2>
             <h4 class="projectsInfo">Check out some projects I've worked on recently!</h4>
-            <div class="col-6">
-                <div class="jpropertyContainer">
-                    <img src="Images/JProperty.PNG" class="img-fluid" width="706" height="500">
-                    <div class="JPropertyOverlay">
-                        <div class="JPropertyTitle">JProperty</div>
-                        <p class="JPropertyDescription">JProperty is a Java GUI created at MasseyHacks VII. It combines
-                            Java Swing with MongoDB to create a nice user interface to search for properties for sale in
-                            the area and Airbnbs worldwide. I mainly worked on the front end, using Java Swing to create
-                            the layout and design of the interface.</p>
+            <div class="col-lg-6">
+                <div class="d-flex justify-content-center">
+                    <div class="jpropertyContainer">
+                        <img src="Images/JProperty.PNG" class="jpropertyContainer img-fluid" width="706" height="700">
+                        <div class="JPropertyOverlay">
+                            <div class="JPropertyTitle">JProperty</div>
+                            <p class="JPropertyDescription">JProperty is a Java GUI created at MasseyHacks VII. It
+                                combines
+                                Java Swing with MongoDB to create a nice user interface to search for properties for
+                                sale in
+                                the area and Airbnbs worldwide. I mainly worked on the front end, using Java Swing to
+                                create
+                                the layout and design of the interface.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
+
+                <div class="d-flex justify-content-center jPropertyButtons">
                     <button type="button" class="btnGit btn btn-primary"
                         onclick="window.open('https://github.com/aarmaane/JProperty')"> <i
                             class="gitBtnIcon fab fa-github" aria-hidden="true"></i>
@@ -156,18 +170,24 @@
                         Devpost</button>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="paintContainer">
-                    <img src="Images/paint.png" class="img-fluid" width="700" height="500">
-                    <div class="paintOverlay">
-                        <div class="paintTitle">Christmas Paint</div>
-                        <p class="paintDescription">Made as a midterm project for the ICS3U course, Christmas Paint is a
-                            Christmas themed remix of the traditional Microsoft Paint application. Made using Python and
-                            Pygame, the application incorporates the features of MS Paint, as well as backgrounds,
-                            soundtracks, and stickers, in a fun Christmas theme.
-                        </p>
+            <div class="col-lg-6">
+                <div class="d-flex justify-content-center">
+                    <div class="paintContainer">
+                        <img src="Images/paint.png" class="img-fluid" width="700" height="500">
+                        <div class="paintOverlay">
+                            <div class="paintTitle">Christmas Paint</div>
+                            <p class="paintDescription">Made as a midterm project for the ICS3U course, Christmas Paint
+                                is a
+                                Christmas themed remix of the traditional Microsoft Paint application. Made using Python
+                                and
+                                Pygame, the application incorporates the features of MS Paint, as well as backgrounds,
+                                soundtracks, and stickers, in a fun Christmas theme.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
+
                 <div class="d-flex justify-content-center">
                     <button type="button" class="btnGit btn btn-primary"
                         onclick="window.open('https://github.com/Ket93/ICS3U-Paint-Project')">
@@ -180,18 +200,24 @@
 
     <div class="projectsContainer container-fluid">
         <div class="row align-items-center">
-            <div class="col-6">
-                <div class="pokemonContainer">
-                    <img src="Images/pokemon.PNG" class="img-fluid" width="706" height="500">
-                    <div class="pokemonOverlay">
-                        <div class="pokemonTitle">MasseyMon</div>
-                        <p class="pokemonDescription">MasseyMon was a Java Swing project created for the final summative
-                            evaluation of the ICS4U course. Inspired by the original Pokemon Red and Pokemon Blue games,
-                            we created a mini-version of the game while incorporating some of our favorite teachers and
-                            memories from our time at our high school, Vincent Massey.
-                        </p>
+            <div class="col-lg-6">
+                <div class="d-flex justify-content-center">
+                    <div class="pokemonContainer">
+                        <img src="Images/pokemon.PNG" class="img-fluid" width="706" height="500">
+                        <div class="pokemonOverlay">
+                            <div class="pokemonTitle">MasseyMon</div>
+                            <p class="pokemonDescription">MasseyMon was a Java Swing project created for the final
+                                summative
+                                evaluation of the ICS4U course. Inspired by the original Pokemon Red and Pokemon Blue
+                                games,
+                                we created a mini-version of the game while incorporating some of our favorite teachers
+                                and
+                                memories from our time at our high school, Vincent Massey.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
                 <div class="d-flex justify-content-center">
                     <button type="button" class="btnGit btn btn-primary"
                         onclick="window.open('https://github.com/Ket93/PokemonFSE')"> <i
@@ -207,8 +233,7 @@
         </div>
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
     <script src="https://kit.fontawesome.com/fdb9835e42.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
