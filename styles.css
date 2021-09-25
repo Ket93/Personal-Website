@@ -233,6 +233,10 @@ html{
     font-size: 15px;
 }
 
+.headDivider{
+    height: 20vh;
+}
+
 
 #mainNavbar{
     font-size: 1.2rem;
@@ -264,14 +268,27 @@ html{
 
 @media (max-width: 1700px){
     .headImage{
-        padding-left: 30px;
-        margin-right: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .headImageContainer{
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (max-width: 990px) { 
     .deca{
         margin-bottom: 50px;
+    }
+
+    .displayName{
+        font-size: 45px;
+    }
+    .headDescription{
+        font-size: 25px;
     }
 
     .jPropertyButtons{
@@ -283,6 +300,9 @@ html{
 
     .JPropertyTitle, .paintTitle, .pokemonTitle{
         font-size: 2em;
+    }
+    .headDivider{
+        height: 10vh;
     }
 
 }
